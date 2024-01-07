@@ -333,7 +333,10 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <b> 🇮🇩 Terimakasih telah order 🇮🇩</b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/MAZ_FARUK"}, {"text":"instal","url":"https://t.me/script_info"}]]
+"'&reply_markup={"inline_keyboard":[
+  [{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/MAZ_FARUK"}],
+  [{"text":"instal","url":"https://t.me/script_info"}]
+]}'
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
