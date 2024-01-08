@@ -13,7 +13,7 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ## INSTALL SCRIPT 
 Masukkan perintah dibawah untuk menginstall Autoscript Premium by MAZFARUKSTORE࿐
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Tikusmerdeka/sccreadit/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
+MAU APA😛
 ```
 
 ## `IZIN IP AUTOSCRIPT KHUSUS MEMBER VIP !`
